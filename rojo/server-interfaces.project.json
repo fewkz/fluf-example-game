@@ -1,0 +1,7 @@
+{
+    "name": "server-interfaces",
+    "globIgnorePaths": ["*.server.lua"],
+    "tree": {
+        "$path": "../services/server"
+    }
+}

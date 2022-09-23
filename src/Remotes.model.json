@@ -1,0 +1,25 @@
+{
+  "ClassName": "Folder",
+  "Children": [
+    {
+      "Name": "TimerCountChanged",
+      "ClassName": "RemoteEvent"
+    },
+    {
+      "Name": "RequestTimerCount",
+      "ClassName": "RemoteFunction"
+    },
+    {
+      "Name": "SetTimerEnabled",
+      "ClassName": "RemoteFunction"
+    },
+    {
+      "Name": "TimerEnabledChanged",
+      "ClassName": "RemoteEvent"
+    },
+    {
+      "Name": "RequestTimerEnabled",
+      "ClassName": "RemoteFunction"
+    }
+  ]
+}

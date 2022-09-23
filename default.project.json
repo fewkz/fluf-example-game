@@ -1,0 +1,86 @@
+{
+  "name": "fluf-example",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$path": "rojo/client-interfaces.project.json",
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Remotes": {
+        "$path": "src/Remotes.model.json"
+      },
+      "Common": {
+        "$path": "src/shared"
+      },
+      "Froact": {
+        "$path": "src/FroactConfig.lua"
+      }
+    },
+    "ServerScriptService": {
+      "$path": "rojo/server-services.project.json",
+      "FlufInit": {
+        "$path": "src/FlufInit.server.lua"
+      }
+    },
+    "ServerStorage": {
+      "$path": "rojo/server-interfaces.project.json",
+      "Stories": {
+        "$path": "src/stories"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "rojo/client-services.project.json",
+        "FlufInit": {
+          "$path": "src/FlufInit.client.lua"
+        }
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Locked": true,
+          "Position": [
+            0,
+            -10,
+            0
+          ],
+          "Size": [
+            512,
+            20,
+            512
+          ]
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
