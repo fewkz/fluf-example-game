@@ -1,5 +1,5 @@
 # fluf-example
-This is an example of using the fluf framework to make a service based architecture for your game.
+This is an example of using the [fluf](https://github.com/fewkz/fluf) framework to make a service based architecture for your game.
 
 This project is published to https://www.roblox.com/games/10991219555/fluf-framework-example-game and uncopylocked.
 
